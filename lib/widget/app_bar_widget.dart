@@ -1,6 +1,6 @@
 import 'package:dev_quiz/core/app_gradients.dart';
 import 'package:dev_quiz/core/app_text_styles.dart';
-import 'package:dev_quiz/widget/store_card_widget.dart';
+import 'package:dev_quiz/widget/score_card_widget.dart';
 import 'package:flutter/cupertino.dart';
 
 class AppBarWidget extends PreferredSize {
@@ -50,7 +50,7 @@ class AppBarWidget extends PreferredSize {
                 ),
                 Align(
                   alignment: Alignment.bottomCenter,
-                  child: StoreCardWidget(),
+                  child: ScoreCardWidget(),
                 ),
               ],
             ),

@@ -4,7 +4,7 @@ import 'package:dev_quiz/widget/chart_widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class StoreCardWidget extends StatelessWidget {
+class ScoreCardWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -15,6 +15,7 @@ class StoreCardWidget extends StatelessWidget {
           borderRadius: BorderRadius.circular(15.0),
           color: AppColors.white,
         ),
+        padding: const EdgeInsets.symmetric(horizontal: 24.0),
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
